@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(64, 61, 61);
+    font-family: 'Indie Flower', cursive;
+
+}
+
+#heading{
+  
+    color:#ffffff;
+    margin-bottom: 40px;
+    font-size: 60px;
+
+}
+
+#show_sketch{
+    float:right;
+    color: rgb(0, 0, 0);
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    background-color:rgb(90, 90, 90) ;
+    border-radius: 30px;
+    border: 3px dashed rgb(255, 255, 255);
+}
+
+canvas{
+    border-radius: 20px;
+    border: 5px ridge #07f3f3;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 70px ;
+}
+
+p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#score{
+    float: left;
+}
+
+#time{
+    float: right;
+}
+
+#btn{
+    background-color: rgb(255, 0, 179);
+    font-size: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 3px dashed darkmagenta;
+
+}
+
+@keyframes example{
+    0% {box-shadow: 1px 1px 38px #f30707;}
+    50%{box-shadow: 1px 1px 38px #a200ff;}
+    100% {box-shadow: 1px 1px 38px #fffb00;}
+
+}
+
+
